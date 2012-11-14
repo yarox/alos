@@ -15,8 +15,12 @@ class AntLike(object):
         self.solution.append(self.start)
         steps = 0
 
-        while (self.solution[-1] != self.end) or (steps < max_steps):
-            self.step(graph)
+        while (self.solution[-1] != self.end) and (steps < max_steps):
+            try:
+                self.step(graph)
+            except RuntimeError:
+                break
+
             steps += 1
 
     def evaluate(self):
@@ -24,12 +28,19 @@ class AntLike(object):
 
     def step(self, graph):
         current = self.solution[-1]
-        neighbors = set(graph.neighbors(current)) - set(self.visited)
+        neighbors = list(set(graph.neighbors(current)) - set(self.visited))
+
+        if not neighbors:
+            raise RuntimeError('agent trapped')
+
         weights = [graph[current][n]['weight'] for n in neighbors]
         next = neighbors[weighted_choice(weights)]
 
         self.solution.append(next)
         self.visited.append(current)
+
+    def reached_end(self):
+        return self.solution[-1] == self.end
 
     def __len__(self):
         return len(self.solution)
@@ -43,11 +54,17 @@ class AntLike(object):
 
 class BinaryAnt(AntLike):
     def evaluate(self):
-        if self.solution[-1] == self.end:
+        if self.reached_end():
             self.fitness = 1
+        else:
+            self.fitness = 0
+            self.solution = []
 
 
 class ProportionalAnt(AntLike):
     def evaluate(self):
-        if self.solution[-1] == self.end:
+        if self.reached_end():
             self.fitness = 1 / len(self)
+        else:
+            self.fitness = 0
+            self.solution = []
