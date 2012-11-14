@@ -2,8 +2,15 @@
 Some experiments exploring ant-like optimization systems.
 
 # Experiments
-## Experiment 1: Ant System
+## Deterministic Reinforcement Learning Algorithms
+
+## Collective Algorithms
+
+## Ant System
 The objective of this experiment is to solve a simple maze, comparing the quality of the solutions depending on the number of agents involved and the evaporation rate.
+
+## Ensemble Algorithms
+
 
 # Dependencies
   + Python == 2.7
