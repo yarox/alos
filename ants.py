@@ -1,5 +1,6 @@
 from __future__ import division
 from utils import weighted_choice
+from scipy.stats import mode
 
 
 class AntLike(object):
@@ -42,11 +43,14 @@ class AntLike(object):
     def reached_end(self):
         return self.solution[-1] == self.end
 
+    def edges_travelled(self):
+        return zip(self.solution, self.solution[1:])
+
     def __len__(self):
         return len(self.solution)
 
     def __contains__(self, item):
-        return item in zip(self.solution, self.solution[1:])
+        return item in self.edges_travelled()
 
     def __cmp__(self, other):
         return cmp(self.fitness, other.fitness)
