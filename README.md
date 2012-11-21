@@ -1,17 +1,6 @@
 # alos
 Some experiments exploring ant-like optimization systems.
 
-# Experiments
-## Deterministic Reinforcement Learning Algorithms
-
-## Collective Algorithms
-
-## Ant System
-The objective of this experiment is to solve a simple maze, comparing the quality of the solutions depending on the number of agents involved and the evaporation rate.
-
-## Ensemble Algorithms
-
-
 # Dependencies
   + Python == 2.7
   + NumPy == 1.6.2
@@ -21,4 +10,4 @@ The objective of this experiment is to solve a simple maze, comparing the qualit
   + NetworkX == 1.7
 
 # How to Run
-Open a terminal, start the mongodb daemon, and execute `python experimentX.py`
+Open a terminal, start the mongodb daemon, and execute `python experimentX.py`. To generate some interesting graphs about the experiment, execute `python reportsX.py`.
