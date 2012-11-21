@@ -15,7 +15,7 @@ rho_list = [0.01, 0.5]
 
 
 if __name__ == '__main__':
-    db = connect_db('alos-experiment0')
+    db = connect_db('alos-experiment3')
     weightify(graph, uniform, 0, 1)
 
     for rho in rho_list:
