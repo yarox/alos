@@ -1,0 +1,75 @@
+\documentclass[a4paper,11pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{pdfpages} 
+\usepackage{amsmath}
+ \usepackage{amssymb}
+\usepackage{natbib}
+\usepackage[dvips]{color}
+\usepackage{subfigure}
+\usepackage{verbatim}
+\usepackage{hyperref}
+
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\textheight 24cm \textwidth 17cm \topmargin-2cm
+%% \evensidemargin   -0.25cm
+\oddsidemargin-0.2cm
+%\pagestyle{empty}
+\renewcommand{\baselinestretch}{1}
+
+\begin{document}
+
+
+
+\title{{\huge Autonomous Robots} \\ \text{ } \\ Behavioral Analysis on Iterative Learning Algorithms for Graph Exploration in labeled graphs}
+
+\author{{Adrian Martín\footnote{amartin@gmail.com}, Roberto Maestre\footnote{rmaestre@gmail.com}, Juan Pardo\footnote{juanpardoma@hotmail.com}}\\ \\
+{\small MsC. Artificial Intelligence Research \\Technical University of Madrid}}
+
+\date{}
+\maketitle
+
+\begin{abstract} 
+Tolman (1930´s) in his experiments with the spatial orientation and navigation of rodents introduced the concept of cognitive map "as formed of two related 
+pieces of information. First, locations and their connecting paths, and second and simultaneously, objects or events associated with the given space”.  Cognitive map is a set of perceptual landmarks and their physical links. Robot cognitive maps are topological maps  implemented as a  labeled graph plus perceptual and semantic information associated to each landmark like routing tables, landmark\'s  images and  the navigation maneuvers associated to their leaving edges. In this article several test and algorithm are tested into a complex graph exploration problem.
+\\
+\\
+We provide our source code\footnote{https://github.com/yarox/alos} in order to allow researchs and students check our results and experiment with this algorithms.
+\end{abstract}
+
+\newpage
+\setcounter{secnumdepth}{0}
+\section{Introduction}
+
+Autonomous robots are robots that can perform desired tasks in unstructured environments without continuous human guidance. Many kinds of robots have some degree of autonomy. Different robots can be autonomous in different ways. A high degree of autonomy is particularly desirable in fields such as space exploration, cleaning floors, mowing lawns, and waste water treatment.
+\\
+\\
+Several algorithms have been applied to the "exploration space" problem, and parameters like $k$ = the number of robots exploring the space or $\rho$ the pheromone in ACO algorithms have been tested too. The graph used for test and meassure the accuracy is shown below:
+
+\begin{figure}[ht]
+\centering
+\subfigure{
+	\includegraphics[scale=0.6] {images/graph_space.pdf}
+	\label{fig:graph_space}
+}
+\caption[A graph representing the space search problem}
+\label{fig:subfigureExample}
+\end{figure}
+
+
+
+\include{section1}
+\include{section2}
+\include{section3}
+\include{section4}
+\include{conclusions}
+
+
+
+\end{document}
+
+
+

@@ -1,0 +1,144 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aitkenhead(2008)]{Aitkenhead2008}
+M.J. Aitkenhead.
+\newblock {A co-evolving decision tree classification method}.
+\newblock \emph{Expert Systems with Applications}, 34\penalty0 (1):\penalty0
+  18--25, January 2008.
+\newblock ISSN 09574174.
+\newblock \doi{10.1016/j.eswa.2006.08.008}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S095741740600251X}.
+
+\bibitem[Aviad and Roy(2011)]{Aviad2011}
+Barak Aviad and Gelbard Roy.
+\newblock {Classification by clustering decision tree-like classifier based on
+  adjusted clusters}.
+\newblock \emph{Expert Systems with Applications}, 38\penalty0 (7):\penalty0
+  8220--8228, July 2011.
+\newblock ISSN 09574174.
+\newblock \doi{10.1016/j.eswa.2011.01.001}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0957417411000212}.
+
+\bibitem[Barros and Basgalupp(2011)]{Barros2011}
+Rodrigo~Coelho Barros and Porto Basgalupp.
+\newblock {A Survey of Evolutionary Algorithms for Decision-Tree Induction}.
+\newblock \emph{Optimization}, pages 1--22, 2011.
+
+\bibitem[Chou(1991)]{88569}
+P.A. Chou.
+\newblock Optimal partitioning for classification and regression trees.
+\newblock \emph{Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 13\penalty0 (4):\penalty0 340 --354, apr 1991.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/34.88569}.
+
+\bibitem[Chou et~al.(2004)Chou, Lee, Shao, and Chen]{Chou2004133}
+Shieu-Ming Chou, Tian-Shyug Lee, Yuehjen~E. Shao, and I-Fei Chen.
+\newblock Mining the breast cancer pattern using artificial neural networks and
+  multivariate adaptive regression splines.
+\newblock \emph{Expert Systems with Applications}, 27\penalty0 (1):\penalty0
+  133 -- 142, 2004.
+\newblock ISSN 0957-4174.
+\newblock \doi{10.1016/j.eswa.2003.12.013}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0957417403002215}.
+
+\bibitem[Deng et~al.(2011)Deng, Runger, and Tuv]{Deng2011}
+Houtao Deng, George Runger, and Eugene Tuv.
+\newblock {Bias of Importance Measures for Multi-valued Attributes and
+  Solutions ⋆}.
+\newblock \emph{Neural Networks}, \penalty0 (Icann):\penalty0 1--9, 2011.
+
+\bibitem[Francesco and Vidoli(2011)]{Francesco2011583}
+Francesco and Vidoli.
+\newblock Evaluating the water sector in italy through a two stage method using
+  the conditional robust nonparametric frontier and multivariate adaptive
+  regression splines.
+\newblock \emph{European Journal of Operational Research}, 212\penalty0
+  (3):\penalty0 583 -- 595, 2011.
+\newblock ISSN 0377-2217.
+\newblock \doi{10.1016/j.ejor.2011.02.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0377221711001342}.
+
+\bibitem[Friedman(1991)]{Friedman1991}
+Jerome~H Friedman.
+\newblock {Multivariate Adaptive Regression Splines⋆}.
+\newblock \emph{The Annals of Statistics}, \penalty0 (19):\penalty0 1--67,
+  1991.
+
+\bibitem[Greenspan(1998)]{Greenspan1998}
+Michael Greenspan.
+\newblock {A Decision Tree Classifier for Object Recognition in Range Imagery}.
+\newblock 1998.
+
+\bibitem[Jensen and Arnspang(1999)]{Jensen1999}
+K.~Jensen and J.~Arnspang.
+\newblock {Binary decision tree classification of musical sounds}.
+\newblock In \emph{Proc. of the 1999 ICMC}. Citeseer, 1999.
+\newblock URL
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9034\&amp;rep=rep1\&amp;type=pdf}.
+
+\bibitem[Kalles and Papagelis(2010)]{KallesP10}
+Dimitris Kalles and Athanassios Papagelis.
+\newblock Lossless fitness inheritance in genetic algorithms for decision
+  trees.
+\newblock \emph{Soft Comput.}, 14\penalty0 (9):\penalty0 973--993, 2010.
+
+\bibitem[Lee and Chen(2005)]{Lee2005743}
+Tian-Shyug Lee and I-Fei Chen.
+\newblock A two-stage hybrid credit scoring model using artificial neural
+  networks and multivariate adaptive regression splines.
+\newblock \emph{Expert Systems with Applications}, 28\penalty0 (4):\penalty0
+  743 -- 752, 2005.
+\newblock ISSN 0957-4174.
+\newblock \doi{10.1016/j.eswa.2004.12.031}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0957417404001782}.
+
+\bibitem[Levow(1995)]{Levow1995}
+Gina-anne Levow.
+\newblock {Characterizing and Recognizing Spoken Corrections in Human-Computer
+  Dialogue}.
+\newblock \emph{Computing}, 1995.
+
+\bibitem[Messenger and Mandell(1972)]{thaid1972}
+Robert Messenger and Lewis Mandell.
+\newblock A modal search technique for predictibe nominal scale multivariate
+  analys.
+\newblock \emph{Journal of the American Statistical Association}, 67\penalty0
+  (340):\penalty0 pp. 768--772, 1972.
+\newblock ISSN 01621459.
+\newblock URL \url{http://www.jstor.org/stable/2284634}.
+
+\bibitem[Pilla et~al.(2012)Pilla, Rosenberger, Chen, Engsuwan, and
+  Siddappa]{Pilla2012162}
+Venkata~L. Pilla, Jay~M. Rosenberger, Victoria Chen, Narakorn Engsuwan, and
+  Sheela Siddappa.
+\newblock A multivariate adaptive regression splines cutting plane approach for
+  solving a two-stage stochastic programming fleet assignment model.
+\newblock \emph{European Journal of Operational Research}, 216\penalty0
+  (1):\penalty0 162 -- 171, 2012.
+\newblock ISSN 0377-2217.
+\newblock \doi{10.1016/j.ejor.2011.07.008}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0377221711006102}.
+
+\bibitem[Samui et~al.(2011)Samui, Das, and Kim]{Samui2011}
+Pijush Samui, Sarat Das, and Dookie Kim.
+\newblock Uplift capacity of suction caisson in clay using multivariate
+  adaptive regression spline.
+\newblock \emph{Ocean Engineering}, \penalty0 (0):\penalty0 --, 2011.
+\newblock ISSN 0029-8018.
+\newblock \doi{10.1016/j.oceaneng.2011.09.036}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0029801811002307}.
+
+\end{thebibliography}
