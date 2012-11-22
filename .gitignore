@@ -1,3 +1,6 @@
 *.pyc
 .DS_Store
-*.pdf
+*.log
+*.aux
+*.lof
+*.out
