@@ -1,5 +1,5 @@
 # alos
-Some experiments exploring ant-like optimization systems.
+Experiments about ant-like optimization systems.
 
 # Dependencies
   + Python == 2.7
